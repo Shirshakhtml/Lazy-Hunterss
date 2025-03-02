@@ -120,7 +120,7 @@ def main():
         process_ip(args.ip, args.cves, args.ports, args.host, args.cve_ports)
     elif args.file:
         with open(args.file, "r") as file:
-            ips = file.read().splitlines()
+            ips = [line.strip() for line in file if line.strip()]
             print(f"{YELLOW}[INFO]{RESET} Target File: {os.path.basename(args.file)}")
             print(f"{YELLOW}[INFO]{RESET} Total IPs: {len(ips)}")
             for ip in ips:
