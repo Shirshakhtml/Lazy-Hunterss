@@ -5,12 +5,6 @@
   <img src="https://img.shields.io/github/license/iamunixtz/Lazy-Hunter?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge" />
   <br>
-  <img src="https://img.shields.io/github/stars/iamunixtz/Lazy-Hunter?style=for-the-badge" />
-  <img src="https://img.shields.io/github/issues/iamunixtz/Lazy-Hunter?style=for-the-badge" />
-  <br>
-  <img src="https://img.shields.io/badge/Made_in-Tanzania-orange?style=for-the-badge" />
-</p>
-
 LazyHunter is an automated reconnaissance tool designed for bug hunters, leveraging Shodan's InternetDB and CVEDB APIs. It retrieves open ports, hostnames, tags, and vulnerabilities for a given IP and fetches CVE details, including affected products and CVSS scores. Results are color-coded by severity for easy analysis.
 
 ![CVES](images/lazyhunter.png)
